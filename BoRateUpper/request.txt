@@ -1,0 +1,18 @@
+curl 'https://www.business-gazeta.ru/comments/rate' \
+  -H 'Accept: application/json, text/javascript, */*; q=0.01' \
+  -H 'Accept-Language: ru,en;q=0.9' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/x-www-form-urlencoded; charset=UTF-8' \
+  -H 'Cookie: real_city=Kazan; _ym_uid=1669645211946962626; _ym_d=1669645211; tmr_lvid=668fb9a7ad43bc2eefd1dfd1f3e1ab31; tmr_lvidTS=1669645210976; _ga=GA1.2.509485098.1669645211; _gid=GA1.2.1278827041.1669645211; _ym_isad=2; _ym_visorc=b; pushDelay=3h; pushDND=1; tmr_detect=0%7C1669645253401' \
+  -H 'Origin: https://www.business-gazeta.ru' \
+  -H 'Referer: https://www.business-gazeta.ru/article/573637?utm_source=desktop-mainpage-title' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 YaBrowser/22.11.0.2419 Yowser/2.5 Safari/537.36' \
+  -H 'X-Requested-With: XMLHttpRequest' \
+  -H 'sec-ch-ua: "Chromium";v="106", "Yandex";v="22", "Not;A=Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  --data-raw 'comment_id=11241469&token=7e8941c16294167a755b0085e2cf9937&rating=1&local_ip=127.0.0.1' \
+  --compressed
